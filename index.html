@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="/Axia Africa/flexbox/Cake Logo.png" alt="" width="250px">
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="#">Cakes</a></li>
+                <li><a href="">Express Cakes</a></li>
+                <li><a href="">Adult Cakes</a></li>
+                <li><a href="">Treats</a></li>
+                <li><a href="">Package Deals</a></li>
+                <li><a href="">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container-1"> 
+                <div class="">
+                    <h1 class="Main-text">Welcome To <br> Oma's Whisk</h1>
+                    <p class="p1">We have a cake for every budget and deliver at a pocket-friendly price. <br> We are an online cake shop that delivers affordable cakes very fast.</p>
+                </div>
+                <div class="image-area"> <img src="Cake PNG.png" alt=""></div>
+            </div>
+           
+        </section>
+        <section class="boxes">
+            <div class="flex-container">
+                <div class="box box--1">
+                    <h3>Red Velvet Cake</h3>
+                    <p>A classic favorite with a velvety texture, vibrant red hue, and layers of rich cream cheese frosting. Perfect for romantic celebrations or indulgent moments.
+                    </p>
+                </div>
+                <div class="box Box--2">
+                    <h3>Chocolate Fudge Cake</h3>
+                    <p>A moist, decadent treat bursting with chocolatey goodness, topped with luscious fudge icing. Ideal for birthdays, special events, or satisfying your sweet tooth.</p>
+                </div>
+                <div class="box Box--3"> 
+                    <h3>Lemon Drizzle Cake </h3>
+                    <p>A zesty, tangy delight infused with fresh lemon juice and topped with a sugary glaze. The ultimate refreshing treat for any time of the day.</p>
+                </div>
+            </div>
+        </section>
+        <section class="carousel-section">
+            <div class="carousel">
+                <div class="image-area"><img src="Cake Carousel.jpg" alt=""></div>
+                <div class="text-area">
+                <blockquote>
+                <p class="text">
+                    <q>
+                        Experience the delicate lightness of this fluffy cake, perfectly complemented by a cloud-like layer of creamy frosting.                </p>
+                  <p class="Company">Fluffy Creamy Cake </p>
+                  <p class="Owner">Oma's Whisk</p>
+                </blockquote>
+                 </div>
+                <button class="btn btn-left"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+                  </svg>
+                  </button>
+                <button class="btn btn-right"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                  </svg>
+                  </button>
+                  <button class="btn btn-right"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                  </svg>
+                  </button>
+                  
+    
+                  <div class="dots">
+                    <button class="dot dot-filled"></button>
+                    <button class="dot"></button>
+                    <button class="dot"></button>
+                    <button class="dot"></button>
+                  </div>
+            </div>
+        </section>
+        <section class="container">
+            <div class="form-container">
+                <h2>Sign Up</h2>
+                <form action="">
+                    <div class="form--input">
+                        <div>
+                            <label for="first-name">First Name</label>
+                            <input type="text" id="first-name" name="first-name" placeholder="First Name" required>
+                        </div>
+                        <div>
+                            <label for="last-name">Last Name</label>
+                            <input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
+                        </div>
+                    </div>
+                    <div class="form--input">
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div>
+                            <label for="gender">Gender</label> <br/>
+                            <div name="gender" id="" class="radio--button">
+                                <label><input type="radio" name="gender" value="male" required> Male</label>
+                                <label><input type="radio" name="gender" value="female"> Female</label>
+                                <label><input type="radio" name="gender" value="others"> Others</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form--input">
+                        <div>
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" placeholder="Password" required>
+                          </div>
+                          <div>
+                            <label for="confirm-password">Confirm Password</label>
+                            <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Password" required>
+                          </div>
+                    </div>
+                    <div class="form--input">
+                        <div>
+                            <label for="education">Educational Level</label>
+                            <select id="education" name="education" required>
+                            <option value="">SSCE</option>
+                            <option value="">BSc</option>
+                            <option value="">Msc</option>
+                            <option value="">PhD</option>
+                            </select>   
+                        </div>
+                        <div>
+                            <label for="experience">Experience Level</label>
+                            <select id="experience" name="experience" required>
+                            <option value="">0-2 Years</option>
+                            <option value="">3 years-5 years</option>
+                            <option value="">6 years-10 years</option>
+                            <option value="">Above 10 years</option>
+                            </select>   
+                        </div>
+                    </div>
+                    <div class="form--input">
+                        <div class="text--box">
+                           <label for="">Tell Us About Yourself
+
+                           </label>
+                            <input id="about" name="about" rows="4" placeholder="Tell us about yourself" required></input>    
+                        </div>
+                    </div>
+                    <div class="submit-btn">
+                        <button type="submit" class="create-btn">Create Account</button>
+                    </div>
+                </form>
+
+            </div>
+            <div class="boxx">
+                <h2 class="axia-africa">Oma's Whisk</h2>
+                <h2 class="cohort">Treats at it's best</h2>
+            </div>
+    </section>
+        
+
+
+    </main>
+    <footer></footer>
+</body>
+</html>
