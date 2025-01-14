@@ -274,7 +274,90 @@ label {
     justify-content: flex-end;
   }
 
-  
+  /* This is the card section */
+
+  .card-body{
+    display: flex;
+    justify-content: center;
+    background: #cdcaca;
+    align-items: center;
+    height: 100vh;
+   
+  }
+
+  .card-container{
+    display: flex;
+    max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   padding: 20px;
+}
+
+.image-card img{
+    width: 300px;
+    background-size: cover;
+}
+
+.text-card{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ffffff;
+}
+
+.product-name{
+    margin-bottom: 5px;
+    font-family: "DM Serif Text", serif;
+}
+
+.product-h2{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: "Baskervville", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.product-description{
+    margin-bottom: 20px;
+    font-family: "Poppins", serif;
+}
+
+.Price-section{
+    display: flex;
+    gap: 20px;
+    align-items: baseline;
+    margin-bottom: 15px;
+}
+
+.old-price {
+
+    text-decoration: line-through;
+    color: #5c5959;
+    font-family: "DM Serif Text", serif;
+
+}
+
+.new-price{
+
+    font-family: "DM Serif Text", serif;
+
+}
+
+.addtocart-btn{
+    background-color: #04632d;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    font-family: "Poppins", serif;
+    align-items: baseline;
+}
+
+
 
 
   
